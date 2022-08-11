@@ -1,0 +1,54 @@
+#nav {
+    background-color: rgb(78, 96, 225);
+}
+
+.nav-link {
+    color: rgb(51, 39, 223);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+.nav-link:hover {
+    color: rgb(78, 96, 225);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: black;
+    margin-top: 100%;
+}
+
+.bg {
+    background-color: rgb(60, 72, 60);
+}
+
+.text-decoration-none {
+    color: rgb(51, 39, 223);
+}
+
+.l-1 {
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.result {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}

@@ -10,7 +10,7 @@ btn.addEventListener("click", function() {
     let two = parseInt(input_2.value);
     let three = parseInt(input_3.value);
     let p_1 = (one * 100) / num;
-    let p_2 = (two * 100) / num;
+    let p_2 = two;
     let a = parseFloat(p_1 * 0.1);
     let b = parseFloat(p_2 * 0.4);
     let c = parseFloat(three * 0.5);

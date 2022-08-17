@@ -15,16 +15,15 @@ btn.addEventListener("click", function() {
     let b = parseFloat(p_2 * 0.4);
     let c = parseFloat(three * 0.5);
     let aggregate = parseFloat(a + b + c);
-    if (aggregate > 100) {
-        result.innerHTML = "Please enter valid values";
-        input_1.value = "";
-        input_2.value = "";
-        input_3.value = "";
+    if (isNaN(aggregate)) {
+        alert("Please enter valid values");
+        location.reload();
+    } else if (aggregate > 100) {
+        alert("Please enter valid values");
+        location.reload();
     } else if (aggregate < 0) {
-        result.innerHTML = "Please enter valid values";
-        input_1.value = "";
-        input_2.value = "";
-        input_3.value = "";
+        alert("Please enter valid values");
+        location.reload();
     } else {
         result.innerHTML = "Your aggregate is " + aggregate;
         input_1.value = "";

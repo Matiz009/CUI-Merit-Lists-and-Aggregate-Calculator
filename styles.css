@@ -1,15 +1,21 @@
 #nav {
-    background-color: rgb(78, 96, 225);
+    background-color: rgb(16, 180, 145);
 }
 
 .nav-link {
-    color: rgb(51, 39, 223);
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
 }
 
 .nav-link:hover {
     color: rgb(78, 96, 225);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.nav-link:active {
+    color: black;
     font-size: 1.5em;
     text-decoration: none;
 }
@@ -24,7 +30,7 @@
 }
 
 .text-decoration-none {
-    color: rgb(51, 39, 223);
+    color: rgb(33, 144, 72);
 }
 
 .l-1 {
@@ -41,14 +47,35 @@
 
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
+    font-size: medium;
 }
 
 a:hover {
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(5, 53, 39);
+    font-size: medium;
+}
+
+#link-1 {
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#link-1 {
+    color: rgb(5, 53, 39);
+    text-decoration: rgb(6, 170, 240) underline;
 }
 
 body {
     background-color: rgb(255, 255, 255);
+}
+
+.result {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
 }

@@ -14,42 +14,38 @@
 <body>
     <ul class="nav justify-content-center" id="nav">
         <li class="nav-item h2">
-            <a class="nav-link text-white " aria-current="page">CUI Aggregate Calculator</a>
+            <a class="nav-link" aria-current="page">Percentage Calculator</a>
         </li>
-
     </ul>
     <br>
+    <br>
 
-    <div class="d-grid gap-2 col-6 mx-auto" id="c1">
-        Enter your Matriculation marks:<br>
-        <div class="form-floating">
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="form-floating mb-3">
             <input type="text" class="form-control" id="one" title="first">
-            <label for="floatingInput">Out of 1100:</label>
+            <label for="floatingInput">Enter Obtained Marks(Part-1/Part2):</label>
         </div>
-        Enter your Intermediate Percentage:Want to calculate percentage?<a href="/calculator.html" id="link-1">click here!</a>
         <div class="form-floating">
-            <input type="text" class="form-control" id="two" title="first">
-            <label for="floatingInput">Out of 100:</label>
-        </div>
-        Enter your NTS marks:<br>
-        <div class="form-floating">
-            <input type="text" class="form-control" id="three" title="second">
-            <label for="floatingPassword">Out of 100:</label>
-        </div><br>
+            <input type="text" class="form-control" id="two" title="second">
+            <label for="floatingPassword">Enter Total Marks(520/505/1100/510):</label>
+        </div><br><br>
     </div>
     <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-success " type="button " id="cal">Calculate Aggregate</button>
-        <button class="btn btn-danger " type="button " id="check"><a href="/lists.html">Check Merit Previous Merit Lists</a></button>
+        <button class="btn btn-primary " type="button " id="cal">Calculate</button>
+        <button class="btn btn-danger " type="button "><a href="/index.html">Home Page</a></button>
     </div>
-
+    <br>
 
     <p id="result" class="result"></p>
 
 
 
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js " integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin="anonymous "></script>
-    <script src="/app.js"></script>
+    <script src="/calculator.js"></script>
 </body>
 
 </html>

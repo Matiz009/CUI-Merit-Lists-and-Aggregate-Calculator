@@ -69,7 +69,7 @@ a:hover {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #b6bcc0, #16a165);
 }
 
 .result {
